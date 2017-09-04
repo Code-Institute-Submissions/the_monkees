@@ -45,7 +45,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	color: #E8B140;
+	color: #E8B140 !important;
 	transition: all .2s ease;
 }
 .container{
@@ -65,6 +65,7 @@ nav ul li a:hover{
 .desc_gigs-tour h1{
 	font-size: 2.5em;
 	color: #FFD15D;
+	text-align: center;
 }
 .desc_gigs-tour p{
 	font-size: 1em;
@@ -102,7 +103,90 @@ nav ul li a:hover{
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
+/* Content style of book-event.html*/
+.box-book-event{
+	margin-top: 25px;
+	width: 80%;
+	margin-left: 10%;
+}
+.box-book-event h1,p{
+	//position: relative;
+	width: auto;
+	font-family: 'Dancing Script', cursive;
+	color: #FFF9F3;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 10px;
+}
+.box-book-event p{
+	font-size: 1.5em;
+}
+/*book-event form properties*/
+.book-event-boxes{
+	margin-top: 25px;
+	width: 80%;
+	margin-left: 10%;
+	font-family: 'Dancing Script', cursive;
+	color: #fff;
+}
+.book-event-boxes h3{
+	text-align: center;
+	font-size: 1.5em;
+}
+.book-event-boxes form p{
+	font-size: 1.5em;
+}
+.book-event-input-boxes{
+	border: 1px solid #fff;
+	border-radius: 20px;
+	padding: 10px;
+}
+.book-event-input-boxes legend{
+	border-radius: 8px;
+	border: 2px solid #fff;
+	padding: 4px 15px;
+	color: #fff;
+	background-color: black;
+}
+#submit-book-event{
+	font-size: 2em;
+	border-radius: 5px;
+	padding: 6px 8px;
+	margin-top: 5px;
+	width: 91%;
+	color: #fff;
+	height: 50px;
+	background-color: #f44336;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 10px;
+}
+#submit-book-event:hover{
+	background-color: #FF9C59;
+	cursor: pointer;
+}
 
+label.field{
+	display: block;
+	text-align: center;
+	width: 100%;
+	float: left;
+	clear: both;
+	margin: 5px;
+}
+.book-event-input-boxes input{
+	border-radius: 5px;
+	padding: 6px 8px;
+	float: left;
+	width: 95%;
+}
+.book-event-input-boxes textarea{
+	border-radius: 5px;
+	padding: 6px 8px;
+	float: left;
+	width: 95%;
+}
 /*Footer index.html*/
 footer{
 	//bottom: 0;
@@ -178,9 +262,13 @@ footer{
 
 /*APPLYING CSS CODE FOR SCREEN WHERE WIDTH IS OVER 750Px*/
 @media screen and (min-width: 750px) {
+	.body-book-event{
+		background-color: #696972;
+	}
 	body{
 		background-color: #E88547;
 	}
+
 	/*Applying backgroung image to index.html*/
 	.container{
 		position: absolute;
@@ -197,6 +285,7 @@ footer{
 		background-repeat: no-repeat;
 		background-position: center;
 	}
+
 	/*Change background for tour.html*/
 	.container-tour{
 		position: absolute;
@@ -207,7 +296,7 @@ footer{
 		background: url("../images/Tour-BG.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;
+		//background-position: center;
 	}
 	.content-tour{
 		position: absolute;
@@ -219,7 +308,60 @@ footer{
 		height: auto;
 		width: auto;
 	}
+	.desc_gigs-tour p {
+		font-size: 1.2em;
+	}
+	/*Applying background for book-event.html*/
+	.container-book-event{
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: url("../images/book-event.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 63%;
+		width: 100%;
+	}
+	.content-book-event{
+		position: absolute;
+		//width: 80%;
+		width: 100%;
+		//margin-left: 10%;
+		margin-top: 600px;
+	}
+	/*Boxes and box style protiese for form and text*/
+	.boxes{
+		position: absolute;
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 200px;
+		//background-color: blue;
+	}
+	/*Text color for content p,h1 properties*/
+	.box-book-event h1{
+		color: #0090E8;
+	}
+	.box-book-event p{
+		color: #00DAFF;
+		font-size: 1.3em;
+	}
 
+	/*book-event form properties*/
+	.book-event-boxes{
+		position: relative;
+		margin-top: 1050px;
+		width: 80%;
+		margin-left: 10%;
+		//background-color: blue;
+	}
+	.book-event-input-boxes legend{
+		background-color: #696972;
+	}
+	#submit-book-event{
+		width: 93%;
+		margin-top: 8px;
+	}
 	/*Navigation bar properties*/
 	nav ul{
     	flex-direction: row;
@@ -233,12 +375,23 @@ footer{
     
 	nav ul li a{
 		font-size: 0.5em;
+
 	}
+
+	/*Text color for navigation bar in book-event.html*/
+	#book-event-nav-col{
+		color: #5C19FF;
+	}
+
 	/*Footer*/
+	#foot-book-event{
+		height: 150px;
+		width: 100%;
+	}
 	#foot-tour{
 		height: 150px;
 		width: 100%;
-		position: relative;
+		//position: relative;
 		margin-top: 830px;
 	}
 	#foot-index{

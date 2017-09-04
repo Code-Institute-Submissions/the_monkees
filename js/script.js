@@ -18,7 +18,18 @@ $(document).ready(function(){
 	});
 });
 
-/*jAVASCRIPT*/
+/*javascript*/
+function getquotes() {
+	var fname = document.getElementById('fname').value;
+	var email = document.getElementById('email').value;
+	var telephone = document.getElementById('telephone').value;
+	var venuename = document.getElementById('venuename').value;
+	var city = document.getElementById('city').value;
+	var guest = document.getElementById('guest').value;
+	if (!fname.length || !email.length || !telephone.length || !venuename.length || !city.length || !guest.length){
+		window.alert("you have to compile missing input values")
+	}else{
+		document.getElementById("book-event-quotes").innerHTML = "The quote price is about 800$. Don't worry we'll be in touch with you as soon as possible. Thank you!!";
+	}
+}
 
-/*TOUR.HTML*/
-//window.alert(5+6);

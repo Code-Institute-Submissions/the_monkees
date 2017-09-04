@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Monkees | Book your event</title>
+	<!--Google font link -->
+	<link href="https://fonts.googleapis.com/css?family=Cookie|Dancing+Script|Great+Vibes|Indie+Flower|Pacifico|Roboto|Sacramento|Satisfy|Shadows+Into+Light|Tangerine|Yellowtail" rel="stylesheet">
+	<!-- Adding style with css -->
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<!-- Social Media Fonts -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="body-book-event">
+	
+	<nav>
+		<img id="nav-image" src="images/nav.jpg" />
+		<ul>
+			<li><a id="book-event-nav-col" href="index.html">The Monkees</a></li>	
+			<li><a id="book-event-nav-col" href="tour.html">Tour</a></li>
+			<li><a id="book-event-nav-col" href="book-event.html">Book Your Event</a></li>
+			<li><a id="book-event-nav-col" href="#">Music</a></li>
+			<li><a id="book-event-nav-col" href="#">Videos</a></li>
+			<li><a id="book-event-nav-col" href="#">Photos</a></li>
+			<li><a id="book-event-nav-col" href="#">Chat room</a></li>
+			<li><a id="book-event-nav-col" href="#">News</a></li>
+			<li><a id="book-event-nav-col" href="#">Bio</a></li>
+			<li><a id="book-event-nav-col" href="#">Log in</a></li>
+		</ul>
+	</nav>
+
+	<div class="container-book-event">
+		<div class="content-book-event">
+			<div class="box-book-event">
+				<h1>Send enquiry</h1>
+				<p>If you are interested in hiring us please contact us filling out the form below. Please include as much information as possible. We'll try our best to get back to you the same day. We are available for: birthday and wedding parties, special events in hotels, clubs, bars and restaurants</p>
+				<p>
+					- We are available to include all essentials as you desire. 
+				</p>
+				<p>
+					- We can perform up to 5 hours at wedding reception, typically featuring 4 x 45 min sets.
+				</p>
+				<p>
+					- Full PA system and microphone for speeches if desired
+				</p>
+				<p>
+					- DJ service for in between live band sets
+				</p>
+				<p>
+					- Bridal waltz performed live if required - can be any song chosen by you
+				</p>
+				<p>
+					- Hi resolution images, colour and black & white uploaded to a USB, delivered to your door within 5-7 weeks of your wedding. Colour balancing and grading on all images delivered. Your personal online brief to customise elements as you wish.
+				</p>
+				<p>
+					- Show Reel - Ultimate movie memento featuring you highlights. Tightly edited and colour graded to a soundtrack of your choice.
+				</p>
+			</div>
+		</div>
+
+		<div>
+			<div class="book-event-boxes">
+				<h3>For Enquiry Purpose:</h3>
+				<form id="usrform-book-event">
+					<fieldset class="book-event-input-boxes">
+						<legend>Personal details</legend>
+		                <label for="fname" class="field"> Name:</label>
+		                <input type="text" id="fname" placeholder="required field" name="fname" required />
+
+		                <label for="email" class="field">Email:</label>
+		                <input id="email" name="email" placeholder="enter your email" type="mail" required />
+
+		                <label for="telephone" class="field">Telephone:</label>
+		                <input id="telephone" name="telephone" placeholder="mobile number" pattern="[0-9]{10}" title="Mobile phone number expected beginning 08********" type="tel" required />
+		            </fieldset>
+		            <p>
+		            	Events Details
+		            </p>
+		            <fieldset class="book-event-input-boxes">
+		                <label for="venuename" class="field">Venue Name:</label>
+		                <input id="venuename" name="venuename" placeholder="Venue Name" type="text" required />
+
+		                <label for="city" class="field">City/Town:</label>
+		                <input id="city" name="city" placeholder="Please include the city/town" type="text" required />
+
+		                <label for="guest" class="field"> Number of guest (Approx.):</label>
+		                <input id="guest" name="guest" type="text" placeholder="guest number" required />
+
+		                <label for="comments" class="field"> Additional Comments/Requirements:</label>
+		                <textarea rows="4" cols="50" id="comments" name="comments" form="usrform-book-event">
+		                </textarea> 
+					</fieldset>
+					<!--<input id="submit-book-event" type="submit" value="Get quotes" onclick="getquotes()" />-->
+				</form>
+				<a id="submit-book-event" onclick="getquotes()">Get quotes</a>
+				<p id="book-event-quotes">
+				</p>
+			</div>
+		</div>
+		
+		<footer id="foot-book-event">
+			<div class="social-media">
+				<h2 id="social-media-tour">Follow us</h2>
+				<ul>
+					<li><a href="#" class="fa fa-facebook"></a></li>
+					<li><a href="#" class="fa fa-twitter"></a></li>
+					<li><a href="#" class="fa fa-google"></a></li>
+					<li><a href="#" class="fa fa-linkedin"></a></li>
+					<li><a href="#" class="fa fa-youtube"></a></li>
+					<li><a href="#" class="fa fa-instagram"></a></li>
+					<li><a href="#" class="fa fa-skype"></a></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+	<!-- Jquery link -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<!-- Agularjs link -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+</body>
+</html>
