@@ -103,6 +103,37 @@ nav ul li a:hover{
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
+/*Properties of videos.html*/
+
+.content-videos h1,p{
+	//position: relative;
+	width: auto;
+	font-family: 'Yellowtail', cursive;
+	color: #FFF9F3;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 10px;
+	padding: 1px;
+}
+.content-videos p{
+	font-family: 'Yellowtail', cursive;
+	font-size: 1.5em;
+}
+.videos-boxes iframe{
+	margin-top: 10px;
+	//z-index: 99999999;
+	width: 70%;
+	height: 220px;
+	margin-left: 15%;
+}
+.all-videos p{
+	font-family: 'Yellowtail', cursive;
+	font-size: 1.5em;
+}
+.videos-boxes p{
+	font-family: 'Yellowtail', cursive;
+	font-size: 1.5em;
+}
 /*Content style of music.html*/
 .music-event{
 	margin-top: 25px;
@@ -289,6 +320,9 @@ footer{
 
 /*APPLYING CSS CODE FOR SCREEN WHERE WIDTH IS OVER 750Px*/
 @media screen and (min-width: 750px) {
+	.videos{
+		background-color: #232621;
+	}
 	.music{
 		background-color: #1F2527;
 	}
@@ -340,6 +374,57 @@ footer{
 	}
 	.desc_gigs-tour p {
 		font-size: 1.2em;
+	}
+	/*All properties about videos.html*/
+	.container-videos{
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: url("../images/videos.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 63%;
+		width: 100%;
+	}
+	.content-videos{
+		position: absolute;
+		//width: 80%;
+		width: 100%;
+		//margin-left: 10%;
+		margin-top: 300px;
+	}
+	.content-videos h1,p{
+		color: #41FF46;
+	}
+
+	.all-videos{
+		position: absolute;
+		width: 100%;
+		margin-top: 620px;
+		//
+	}
+	.all-videos h1{
+		//font-size: 1.5em;
+		//color: #41FF46;
+		color: #FF3505;
+	}
+	.all-videos p{
+		font-size: 2em;
+		//color: #000;
+		color: #A9E816;
+	}
+	.videos-boxes iframe{
+		//margin-top: 10px;
+		//z-index: 99999999;
+		width: 65%;
+		height: 400px;
+		margin-left: 18%;
+	}
+	.videos-boxes p{
+		font-size: 1.6em;
+		color: #A9E816;
+		margin: 15px;
 	}
 	/*All properties about music.html*/
 	.music-event{
@@ -440,6 +525,10 @@ footer{
 		font-size: 0.5em;
 
 	}
+	/*Text color for navigation bar in videos.html*/
+	#videos-nav-col{
+		color: #05FF08;
+	}
 	/*Text color for navigation bar in music.html*/
 	#music-nav-col{
 		color: #FF6200;
@@ -450,6 +539,12 @@ footer{
 	}
 
 	/*Footer*/
+	#foot-videos{
+		position: absolute;
+		height: 150px;
+		width: 100%;
+		margin-top: 3550px;
+	}
 	#foot-music{
 		height: 150px;
 		width: 100%;
