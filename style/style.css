@@ -103,6 +103,43 @@ nav ul li a:hover{
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
+/*properties of photos.html*/
+.content-photos h1,p{
+	//position: relative;
+	width: auto;
+	font-family: 'Cookie', cursive;
+	color: #FFF9F3;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 10px;
+	padding: 1px;
+}
+.content-photos p{
+	font-family: 'Cookie', cursive;
+	color: #FFF9F3;
+	font-size: 1.5em;
+}
+.all-photos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 80%;
+	margin-left: 10%
+}
+.photos-boxes{
+	border: 1px solid #fff;
+	border-radius: 4px;
+	padding: 5px;
+	margin: 3px;
+}
+#photos-text{
+	font-family: 'Cookie', cursive;
+	font-size: 1.8em;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
 /*Properties of videos.html*/
 
 .content-videos h1,p{
@@ -320,6 +357,9 @@ footer{
 
 /*APPLYING CSS CODE FOR SCREEN WHERE WIDTH IS OVER 750Px*/
 @media screen and (min-width: 750px) {
+	.photos{
+		background-color: #F4D4FF;
+	}
 	.videos{
 		background-color: #232621;
 	}
@@ -384,7 +424,7 @@ footer{
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
-		height: 63%;
+		height: 65%;
 		width: 100%;
 	}
 	.content-videos{
@@ -425,6 +465,44 @@ footer{
 		font-size: 1.6em;
 		color: #A9E816;
 		margin: 15px;
+	}
+	/*Properties of photos.html*/
+	.container-photos{
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: url("../images/photos.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 65%;
+		width: 100%;
+	}
+	.content-photos{
+		position: absolute;
+		width: 100%;
+		margin-top: 300px;
+	}
+	.content-photos h1{
+		color: #F36AED;
+		font-size: 2.2em;
+	}
+	.content-photos p{
+		color: #F36AED;
+		font-size: 1.7em;
+	}
+	.all-photos{
+		position: absolute;
+	}
+	.photos-boxes{
+		border: 1px solid #000;
+		border-radius: 4px;
+		padding: 8px;
+		margin: 8px;
+	}
+	#photos-text{
+		margin-top: 650px;
+		color: #59584C;
 	}
 	/*All properties about music.html*/
 	.music-event{
@@ -526,6 +604,10 @@ footer{
 
 	}
 	/*Text color for navigation bar in videos.html*/
+	#photos-nav-col{
+		color: #FFF226;
+	}
+	/*Text color for navigation bar in videos.html*/
 	#videos-nav-col{
 		color: #05FF08;
 	}
@@ -539,6 +621,12 @@ footer{
 	}
 
 	/*Footer*/
+	#foot-photos{
+		position: absolute;
+		height: 150px;
+		width: 100%;
+		margin-top: 1120px;
+	}
 	#foot-videos{
 		position: absolute;
 		height: 150px;
