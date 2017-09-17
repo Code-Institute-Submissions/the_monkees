@@ -18,7 +18,7 @@ $(document).ready(function(){
 	});
 });
 
-/*javascript*/
+/*javascript - book-event.html*/
 function getquotes() {
 	var fname = document.getElementById('fname').value;
 	var email = document.getElementById('email').value;
@@ -33,3 +33,46 @@ function getquotes() {
 	}
 }
 
+/*javascript - chat-room.html*/
+function insert_comments() {
+	var firstname = document.getElementById('firstname').value;
+	var date = document.getElementById('date').value;
+	var comments = document.getElementById('comments').value;
+	//Create a <p> elements
+	var paragraph1=document.createElement("P");
+	var paragraph2=document.createElement("P");
+	var paragraph3=document.createElement("P");
+	//Create a <div> element
+	var div1=document.createElement("div");
+
+	var node1=document.createTextNode(firstname);
+	var node2=document.createTextNode(comments);
+	var node3=document.createTextNode(date);
+
+	paragraph1.id = "chat-room-name";
+	paragraph2.id = "chat-room-comments";
+	paragraph3.id = "chat-room-date";
+
+	//Adding text to paragraph
+	paragraph1.appendChild(node1);
+	paragraph2.appendChild(node2);
+	paragraph3.appendChild(node3);
+	//Adding paragraph in div
+	div1.id="paragraph-boxes";
+	div1.appendChild(paragraph1);
+	div1.appendChild(paragraph2);
+	div1.appendChild(paragraph3);
+
+	var comments_container = document.getElementById("comments-container");
+
+	if (!firstname.length || !date.length || !comments.length){
+		window.alert("you have to compile missing input values")
+	}else{
+		//Adding div in HTML page
+		comments_container.appendChild(div1);
+	}
+
+	document.getElementById('firstname').value="";
+	document.getElementById('date').value="";
+	document.getElementById('comments').value="";
+}

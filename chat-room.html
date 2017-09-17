@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Monkees | Photos</title>
+	<!--Google font link -->
+	<link href="https://fonts.googleapis.com/css?family=Cookie|Dancing+Script|Great+Vibes|Indie+Flower|Pacifico|Roboto|Sacramento|Satisfy|Shadows+Into+Light|Tangerine|Yellowtail" rel="stylesheet">
+	<!-- Adding style with css -->
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<!-- Social Media Fonts -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body class="chat-room">
+	<nav>
+		<img id="nav-image" src="images/nav.jpg" />
+		<ul>
+			<li><a id="chat-room-nav-col" href="index.html">The Monkees</a></li>	
+			<li><a id="chat-room-nav-col" href="tour.html">Tour</a></li>
+			<li><a id="chat-room-nav-col" href="book-event.html">Book Your Event</a></li>
+			<li><a id="chat-room-nav-col" href="music.html">Music</a></li>
+			<li><a id="chat-room-nav-col" href="videos.html">Videos</a></li>
+			<li><a id="chat-room-nav-col" href="photos.html">Photos</a></li>
+			<li><a id="chat-room-nav-col" href="chat-room.html">Chat room</a></li>
+			<li><a id="chat-room-nav-col" href="#">News</a></li>
+			<li><a id="chat-room-nav-col" href="#">Bio</a></li>
+			<li><a id="chat-room-nav-col" href="#">Log in</a></li>
+		</ul>
+	</nav>
+
+	<div class="container-chat-room">
+		<div class="content-chat-room">
+			<h1>Tell us what you think!!</h1>
+			<p>If you are happy with our performence, please leave a comment on the page. If you are not happy for any reason, please let us know and we will always looking for way to improve!!</p>
+			<p>We would love to hear your thoughts!!</p>
+		</div>
+		<p id="chat-room-text">Leave your comment below:</p>
+		<div class="chat-room-container">
+			<form id="usrform-chat-room">
+				<fieldset class="chat-room-input-boxes">
+					<legend>Personal details</legend>
+		              	<label for="firstname" class="field"> Name:</label>
+		              	<input type="text" id="firstname" placeholder="Enter your name" name="firstname" required />
+
+		              	<label for="date" class="field">Date:</label>
+		              	<input id="date" name="date" placeholder="Enter the date" type="date" required />
+
+		              	<label for="comments" class="field">Leave Comments:</label>
+		                <textarea rows="4" cols="50" id="comments" name="comments" placeholder="Leave comments" form="usrform-book-event">
+		                </textarea>
+		         </fieldset>
+		    </form>
+		    <a id="submit-chat-room" onclick="insert_comments()">Submit</a>
+
+			<div id="comments-container">
+				<div id="paragraph-boxes">
+					<p id="chat-room-name">zain</p>
+					<p id="chat-room-comments">We are so proud of you !! great performence!!!</p>
+					<p id="chat-room-date">17/09/2017</p>
+				</div>
+
+			</div>
+			
+		</div>
+		
+		<footer id="foot-chat-room">
+			<div class="social-media">
+				<h2 id="social-media-tour">Follow us</h2>
+				<ul>
+					<li><a href="#" class="fa fa-facebook"></a></li>
+					<li><a href="#" class="fa fa-twitter"></a></li>
+					<li><a href="#" class="fa fa-google"></a></li>
+					<li><a href="#" class="fa fa-linkedin"></a></li>
+					<li><a href="#" class="fa fa-youtube"></a></li>
+					<li><a href="#" class="fa fa-instagram"></a></li>
+					<li><a href="#" class="fa fa-skype"></a></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+	<!-- Jquery link -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<!-- Agularjs link -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+</body>
+</html>

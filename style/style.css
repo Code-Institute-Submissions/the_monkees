@@ -103,6 +103,106 @@ nav ul li a:hover{
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
+
+/*properties of chat-room.html*/
+.content-chat-room h1,p{
+	width: auto;
+	font-family: 'Tangerine', cursive;
+	color: #FFF9F3;
+	font-size: 2.6em;
+	text-align: center;
+	margin-top: 10px;
+	padding: 1px;
+}
+.content-chat-room p{
+	font-family: 'Tangerine', cursive;
+	color: #FFF9F3;
+	font-size: 1.8em;
+}
+#chat-room-text{
+	font-family: 'Tangerine', cursive;
+	color: #FFF9F3;
+	margin-top: 25px;
+	font-size: 1.8em;
+}
+#chat-room-comments{
+	font-family: 'Tangerine', cursive;
+	color: #FFF9F3;
+	font-size: 1.8em;
+}
+#chat-room-date{
+	font-family: 'Tangerine', cursive;
+	color: #FFF9F3;
+	text-align: left;
+	font-size: 1.8em;
+}
+#chat-room-name{
+	font-family: 'Tangerine', cursive;
+	text-align: left;
+	color: #FFF9F3;
+	font-size: 1.8em;
+}
+/*Form properties of chat-room.html*/
+.chat-room-container{
+	margin-top: 5px;
+	width: 80%;
+	margin-left: 10%;
+	font-family: 'Tangerine', cursive;
+	color: #fff;
+}
+.chat-room-input-boxes{
+	border: 1px solid #fff;
+	border-radius: 20px;
+	padding: 10px;
+}
+#paragraph-boxes{
+	border: 1px solid #fff;
+	border-radius: 20px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.chat-room-input-boxes legend{
+	font-size: 1.3em;
+	border-radius: 8px;
+	border: 2px solid #fff;
+	padding: 4px 15px;
+	color: #fff;
+	background-color: black;
+}
+.chat-room-input-boxes label{
+	font-size: 1.5em;
+}
+.chat-room-input-boxes input{
+	border-radius: 5px;
+	padding: 6px 8px;
+	float: left;
+	width: 95%;
+}
+.chat-room-input-boxes textarea{
+	border-radius: 5px;
+	padding: 6px 8px;
+	float: left;
+	width: 95%;
+}
+#submit-chat-room{
+	font-size: 2em;
+	border-radius: 5px;
+	padding: 6px 8px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	width: 91%;
+	color: #fff;
+	height: 50px;
+	background-color: #6165E8;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 10px;
+}
+#submit-chat-room:hover{
+	background-color: #6B96FF;
+	cursor: pointer;
+}
 /*properties of photos.html*/
 .content-photos h1,p{
 	//position: relative;
@@ -357,6 +457,9 @@ footer{
 
 /*APPLYING CSS CODE FOR SCREEN WHERE WIDTH IS OVER 750Px*/
 @media screen and (min-width: 750px) {
+	.chat-room{
+		background-color: #1B261F;
+	}
 	.photos{
 		background-color: #F4D4FF;
 	}
@@ -504,6 +607,56 @@ footer{
 		margin-top: 650px;
 		color: #59584C;
 	}
+	/*Properties for chat-room.html*/
+	.container-chat-room{
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: url("../images/chat-room.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 65%;
+		width: 100%;
+	}
+	.content-chat-room{
+		position: absolute;
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 300px;
+	}
+	.content-chat-room h1{
+		color: #FF0D36;
+		font-size: 3.2em;
+	}
+	.content-chat-room p{
+		color: #FF0D36;
+		font-size: 2.2em;
+	}
+	#chat-room-text{
+		margin-top: 690px;
+		color: #FF0D36;
+		font-size: 2.2em;
+	}
+	.chat-room-input-boxes legend{
+	    font-size: 1.7em;
+	    color: #FF0D36;
+	    background-color: #1B261F;
+	}
+	.chat-room-input-boxes label{
+	    font-size: 1.7em;
+	    color: #FF0D36;
+	}
+	#submit-chat-room{
+		color: #fff;
+		width: 93%;
+	}
+	#submit-chat-room:hover{
+		color: #FF0D36;
+	}
+	#chat-room-comments{
+		color: #FF0D36;
+	}
 	/*All properties about music.html*/
 	.music-event{
 		flex-flow: row wrap;
@@ -604,6 +757,9 @@ footer{
 
 	}
 	/*Text color for navigation bar in videos.html*/
+	#chat-room-nav-col{
+		color: #ED2E2E;
+	}
 	#photos-nav-col{
 		color: #FFF226;
 	}
@@ -621,6 +777,11 @@ footer{
 	}
 
 	/*Footer*/
+	#foot-chat-room{
+		position: absolute;
+		height: 150px;
+		width: 100%;
+	}
 	#foot-photos{
 		position: absolute;
 		height: 150px;
@@ -646,7 +807,7 @@ footer{
 		height: 150px;
 		width: 100%;
 		//position: relative;
-		margin-top: 830px;
+		margin-top: 850px;
 	}
 	#foot-index{
 		height: 150px;
