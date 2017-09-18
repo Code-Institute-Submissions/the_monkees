@@ -203,6 +203,39 @@ nav ul li a:hover{
 	background-color: #6B96FF;
 	cursor: pointer;
 }
+/*properties of news.html*/
+.content-news h1{
+	width: auto;
+	font-family: 'Sacramento', cursive;
+	color: #FFF9F3;
+	font-size: 3em;
+	text-align: center;
+	margin-top: 29px;
+	padding: 1px;
+}
+.all-news-container{
+	font-family: 'Sacramento', cursive;
+	text-align: center;
+	margin-top: 5px;
+	width: 80%;
+	margin-top: 25px;
+	margin-left: 10%;
+}
+.articles{
+	margin-bottom: 20px;
+}
+.articles a{
+	color: #FF521A;
+	margin: 10px;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+.articles p{
+	font-size: 1.1em;
+}
+.article-date{
+	font-size: 0.9em;
+}
 /*properties of photos.html*/
 .content-photos h1,p{
 	//position: relative;
@@ -607,6 +640,48 @@ footer{
 		margin-top: 650px;
 		color: #59584C;
 	}
+	/*properties for news.html*/
+	.container-news{
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: url("../images/news.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 65%;
+		width: 100%;
+	}
+	.content-news{
+		position: absolute;
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 300px;
+	}
+	.content-news h1{
+		color: #DEF502;
+		font-size: 3.2em;
+	}
+	.all-news-container {
+	    margin-top: 650px;
+	}
+	.articles a{
+		display: inline-block;
+		text-align: left;
+		float: left;
+	}
+	.article-date{
+		font-size: 0.9em !important;
+		float: right;
+		margin-bottom: 5px;
+	}
+	.articles p{
+		color: #DEF502;
+		display: inline-block;
+		margin-top: 10px;
+		text-align: center;
+		font-size: 1.3em;
+	}
 	/*Properties for chat-room.html*/
 	.container-chat-room{
 		position: absolute;
@@ -755,6 +830,10 @@ footer{
 	nav ul li a{
 		font-size: 0.5em;
 
+	}
+	/*Text color for navigation bar in news.html*/
+	#news-nav-col{
+		color: #DEF502;
 	}
 	/*Text color for navigation bar in videos.html*/
 	#chat-room-nav-col{
