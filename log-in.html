@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="MusicBandApp">
+<head>
+	<title>The Monkees | chat-room</title>
+	<!-- Agularjs link -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<!--Google font link -->
+	<link href="https://fonts.googleapis.com/css?family=Arizonia|Cookie|Dancing+Script|Great+Vibes|Indie+Flower|Kristi|La+Belle+Aurore|Pacifico|Roboto|Sacramento|Satisfy|Shadows+Into+Light|Tangerine|Yellowtail" rel="stylesheet"> 
+	<!-- Adding style with css -->
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<!-- Social Media Fonts -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body class="log-in">
+	<nav>
+		<img id="nav-image" src="images/nav.jpg" />
+		<ul>
+			<li><a id="log-in-nav-col" href="index.html">The Monkees</a></li>	
+			<li><a id="log-in-nav-col" href="tour.html">Tour</a></li>
+			<li><a id="log-in-nav-col" href="book-event.html">Book Your Event</a></li>
+			<li><a id="log-in-nav-col" href="music.html">Music</a></li>
+			<li><a id="log-in-nav-col" href="videos.html">Videos</a></li>
+			<li><a id="log-in-nav-col" href="photos.html">Photos</a></li>
+			<li><a id="log-in-nav-col" href="chat-room.html">Chat room</a></li>
+			<li><a id="log-in-nav-col" href="news.html">News</a></li>
+			<li><a id="log-in-nav-col" href="bio.html">Bio</a></li>
+			<li><a id="log-in-nav-col" href="log-in.html">Log in</a></li>
+		</ul>
+	</nav>
+
+	<div ng-include="'templates/form.html'" class="container-log-in-page"></div>
+	<footer id="foot-log-in">
+		<div class="social-media">
+			<h2 id="foot-log-in-title">Follow us</h2>
+			<ul>
+				<li><a href="#" class="fa fa-facebook"></a></li>
+				<li><a href="#" class="fa fa-twitter"></a></li>
+				<li><a href="#" class="fa fa-google"></a></li>
+				<li><a href="#" class="fa fa-linkedin"></a></li>
+				<li><a href="#" class="fa fa-youtube"></a></li>
+				<li><a href="#" class="fa fa-instagram"></a></li>
+				<li><a href="#" class="fa fa-skype"></a></li>
+			</ul>
+		</div>
+	</footer>
+	<!-- Jquery link -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<!-- Angularjs file link -->
+	<script src="js/angularjs.js"></script>
+</body>
+</html>

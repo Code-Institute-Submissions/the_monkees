@@ -1,0 +1,1 @@
+var MusicBandApp = angular.module("MusicBandApp", []);

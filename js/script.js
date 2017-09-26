@@ -76,3 +76,31 @@ function insert_comments() {
 	document.getElementById('date').value="";
 	document.getElementById('comments').value="";
 }
+
+/*javascript - log-in.html*/
+function log_in() {
+	var sign_in_username = document.getElementById('sign_in_username').value;
+	var sign_in_password = document.getElementById('sign_in_password').value;
+	
+	if (!sign_in_username.length || !sign_in_password.length){
+		window.alert("you have to compile missing input values")
+	}else{
+		window.location.href="index.html";
+	}
+}
+
+/*javascript - log-in.html*/
+function registration() {
+	var reg_username = document.getElementById('reg_username').value;
+	var reg_email = document.getElementById('reg_email').value;
+	var reg_password = document.getElementById('reg_password').value;
+
+	if (!reg_username.length || !reg_email.length || !reg_password.length){
+		window.alert("you have to compile missing input values")
+	}else{
+		window.alert("registration completed successfully!!")
+		document.getElementById('reg_username').value="";
+		document.getElementById('reg_email').value="";
+		document.getElementById('reg_password').value="";
+	}
+}

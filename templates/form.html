@@ -1,0 +1,37 @@
+		<!-- Sign In Form -->
+		<div class="log-in-container">
+			<div class="content-log-in">
+				<h1>Log in</h1>
+			</div>
+			<form id="usrform-chat-room">
+				<fieldset class="log-in-input-boxes">
+					<legend>Sign In</legend>
+		              	<label for="sign_in_username" class="field"> Username:</label>
+		              	<input type="text" ng-model="test" id="sign_in_username" placeholder="Enter your username" name="sign_in_username" required />
+
+		              	<label for="sign_in_password" class="field">Password:</label>
+		              	<input id="sign_in_password" name="sign_in_password" placeholder="Enter your password" type="password" required />
+		         </fieldset>
+		    </form>
+		    <a id="submit-log-in" onclick="log_in()">Sign in</a>
+		</div>
+		<!-- Sign Up Form -->
+		<div class="log-in-container">
+			<div class="content-log-in">
+				<h1>Registration</h1>
+			</div>
+			<form id="usrform-chat-room">
+				<fieldset class="log-in-input-boxes">
+					<legend>Sign Up</legend>
+		              	<label for="reg_username" class="field"> Username:</label>
+		              	<input type="text" id="reg_username" placeholder="Enter your username" name="reg_username" required />
+
+		              	<label for="reg_email" class="field">Email:</label>
+		                <input id="reg_email" name="reg_email" placeholder="Enter your email" type="email" required />
+
+		              	<label for="reg_password" class="field">Password:</label>
+		              	<input id="reg_password" name="reg_password" placeholder="Enter your password" type="password" required />
+		         </fieldset>
+		    </form>
+		    <a id="submit-log-in2" onclick="registration()">Get Started</a>
+		</div>

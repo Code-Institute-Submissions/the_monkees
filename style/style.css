@@ -103,7 +103,86 @@ nav ul li a:hover{
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
-
+/*properties of log-in.html*/
+.container-log-in-page{
+	width: 80%;
+	margin-left: 10%;
+}
+.content-log-in h1{
+	width: auto;
+	font-family: 'La Belle Aurore', cursive;
+	color: #FFF9F3;
+	font-size: 2.6em;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	padding: 1px;
+}
+.log-in-input-boxes{
+	border: 1px solid #fff;
+	border-radius: 20px;
+	padding: 10px;
+}
+.log-in-input-boxes legend{
+	font-family: 'La Belle Aurore', cursive;
+	font-size: 1.3em;
+	border-radius: 8px;
+	border: 2px solid #fff;
+	padding: 4px 15px;
+	color: #fff;
+	background-color: black;
+}
+.log-in-input-boxes label{
+	font-family: 'La Belle Aurore', cursive;
+	color: #fff;
+	font-size: 1.5em;
+}
+.log-in-input-boxes input{
+	border-radius: 5px;
+	padding: 6px 8px;
+	float: left;
+	width: 95%;
+}
+#submit-log-in{
+	font-family: 'La Belle Aurore', cursive;
+	font-size: 2em;
+	border-radius: 5px;
+	padding: 6px 8px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	width: 91%;
+	color: #fff;
+	height: 50px;
+	background-color: #E87114;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 10px;
+}
+#submit-log-in:hover{
+	background-color: #FF5B16;
+	cursor: pointer;
+}
+#submit-log-in2{
+	font-family: 'La Belle Aurore', cursive;
+	font-size: 2em;
+	border-radius: 5px;
+	padding: 9px 8px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	width: 91%;
+	color: #fff;
+	height: 50px;
+	background-color: #1CA42D;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 10px;
+}
+#submit-log-in2:hover{
+	background-color: #00E820;
+	cursor: pointer;
+}
 /*properties of chat-room.html*/
 .content-chat-room h1,p{
 	width: auto;
@@ -203,6 +282,24 @@ nav ul li a:hover{
 	background-color: #6B96FF;
 	cursor: pointer;
 }
+
+/*properties of bio.html*/
+.content-bio h1,p{
+	//position: relative;
+	width: auto;
+	font-family: 'Kristi', cursive;
+	color: #FFF9F3;
+	font-size: 3em;
+	text-align: center;
+	margin-top: 10px;
+	padding: 1px;
+}
+.bio-monkees p{
+	font-family: 'Kristi', cursive;
+	color: #FFF9F3;
+	font-size: 1.5em;
+}
+
 /*properties of news.html*/
 .content-news h1{
 	width: auto;
@@ -490,6 +587,12 @@ footer{
 
 /*APPLYING CSS CODE FOR SCREEN WHERE WIDTH IS OVER 750Px*/
 @media screen and (min-width: 750px) {
+	.log-in{
+		background-color: #A8B3CB;
+	}
+	.bio{
+		background-color: #000;
+	}
 	.chat-room{
 		background-color: #1B261F;
 	}
@@ -551,6 +654,38 @@ footer{
 	.desc_gigs-tour p {
 		font-size: 1.2em;
 	}
+	/*All properties about bio.html*/
+	.container-bio{
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: url("../images/bio.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 65%;
+		width: 100%;
+	}
+	.content-bio{
+		position: absolute;
+		//width: 80%;
+		width: 100%;
+		//margin-left: 10%;
+		margin-top: 300px;
+	}
+	.content-bio h1,p{
+		color: #FFCA03;
+	}
+	.bio-monkees{
+		margin-top: 650px;
+		width: 80%;
+		margin-left: 10%;
+	}
+	.bio-monkees p{
+		color: #FFCA03;
+		font-size: 1.9em;
+	}
+
 	/*All properties about videos.html*/
 	.container-videos{
 		position: absolute;
@@ -640,6 +775,7 @@ footer{
 		margin-top: 650px;
 		color: #59584C;
 	}
+	
 	/*properties for news.html*/
 	.container-news{
 		position: absolute;
@@ -681,6 +817,54 @@ footer{
 		margin-top: 10px;
 		text-align: center;
 		font-size: 1.3em;
+	}
+	/*Properties for log-in.html*/
+	.container-log-in-page{
+		display: flex;
+		flex-flow: row nowrap;
+		//justify-content: center;
+		//align-items: center;
+		position: absolute;
+		margin-left: 0;
+		left: 0;
+		top: 0;
+		background: url("../images/log-in.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 100%;
+		width: 100%;
+	}
+	.log-in-container{
+		width: 35%;
+		height: 500px;
+		margin-left: 10%;
+		margin-top: 200px;
+	}
+	.content-log-in{
+		
+	}
+	.content-log-in h1{
+		text-align: center;
+		color: #5422DB;
+	}
+	.log-in-input-boxes legend{
+		color: #073593;
+	}
+	.log-in-input-boxes label{
+		color: #5422DB;
+	}
+	#submit-log-in{
+		color: #5422DB;
+	}
+	#submit-log-in:hover{
+		color: #fff;
+	}
+	#submit-log-in2{
+		color: #5422DB;
+	}
+	#submit-log-in2:hover{
+		color: #fff;
 	}
 	/*Properties for chat-room.html*/
 	.container-chat-room{
@@ -831,6 +1015,14 @@ footer{
 		font-size: 0.5em;
 
 	}
+	/*Text color for navigation bar in bio.html*/
+	#log-in-nav-col{
+		color: #073593;
+	}
+	/*Text color for navigation bar in bio.html*/
+	#bio-nav-col{
+		color: #FFCA03;
+	}
 	/*Text color for navigation bar in news.html*/
 	#news-nav-col{
 		color: #DEF502;
@@ -856,6 +1048,15 @@ footer{
 	}
 
 	/*Footer*/
+	#foot-log-in-title{
+		color: #5422DB;
+	}
+	#foot-log-in{
+		position: absolute;
+		height: 150px;
+		width: 100%;
+		margin-top: 580px;
+	}
 	#foot-chat-room{
 		position: absolute;
 		height: 150px;
