@@ -285,7 +285,6 @@ nav ul li a:hover{
 
 /*properties of bio.html*/
 .content-bio h1,p{
-	//position: relative;
 	width: auto;
 	font-family: 'Kristi', cursive;
 	color: #FFF9F3;
@@ -335,7 +334,6 @@ nav ul li a:hover{
 }
 /*properties of photos.html*/
 .content-photos h1,p{
-	//position: relative;
 	width: auto;
 	font-family: 'Cookie', cursive;
 	color: #FFF9F3;
@@ -373,7 +371,6 @@ nav ul li a:hover{
 /*Properties of videos.html*/
 
 .content-videos h1,p{
-	//position: relative;
 	width: auto;
 	font-family: 'Yellowtail', cursive;
 	color: #FFF9F3;
@@ -388,7 +385,6 @@ nav ul li a:hover{
 }
 .videos-boxes iframe{
 	margin-top: 10px;
-	//z-index: 99999999;
 	width: 70%;
 	height: 220px;
 	margin-left: 15%;
@@ -411,9 +407,6 @@ nav ul li a:hover{
 	align-items: center;
 }
 .music-event h1{
-	//position: relative;
-	//display: block;
-	//width: auto;
 	font-family: 'Great Vibes', cursive;
 	color: #FF6200;
 	font-size: 2.3em;
@@ -435,7 +428,6 @@ nav ul li a:hover{
 	margin-left: 10%;
 }
 .box-book-event h1,p{
-	//position: relative;
 	width: auto;
 	font-family: 'Dancing Script', cursive;
 	color: #FFF9F3;
@@ -639,7 +631,6 @@ footer{
 		background: url("../images/Tour-BG.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
-		//background-position: center;
 	}
 	.content-tour{
 		position: absolute;
@@ -668,9 +659,7 @@ footer{
 	}
 	.content-bio{
 		position: absolute;
-		//width: 80%;
 		width: 100%;
-		//margin-left: 10%;
 		margin-top: 300px;
 	}
 	.content-bio h1,p{
@@ -700,9 +689,7 @@ footer{
 	}
 	.content-videos{
 		position: absolute;
-		//width: 80%;
 		width: 100%;
-		//margin-left: 10%;
 		margin-top: 300px;
 	}
 	.content-videos h1,p{
@@ -713,21 +700,15 @@ footer{
 		position: absolute;
 		width: 100%;
 		margin-top: 620px;
-		//
 	}
 	.all-videos h1{
-		//font-size: 1.5em;
-		//color: #41FF46;
 		color: #FF3505;
 	}
 	.all-videos p{
 		font-size: 2em;
-		//color: #000;
 		color: #A9E816;
 	}
 	.videos-boxes iframe{
-		//margin-top: 10px;
-		//z-index: 99999999;
 		width: 65%;
 		height: 400px;
 		margin-left: 18%;
@@ -822,8 +803,6 @@ footer{
 	.container-log-in-page{
 		display: flex;
 		flex-flow: row nowrap;
-		//justify-content: center;
-		//align-items: center;
 		position: absolute;
 		margin-left: 0;
 		left: 0;
@@ -944,9 +923,7 @@ footer{
 	}
 	.content-music{
 		position: absolute;
-		//width: 80%;
 		width: 100%;
-		//margin-left: 10%;
 		margin-top: 600px;
 	}
 	/*Properties about book-event.html*/
@@ -963,9 +940,7 @@ footer{
 	}
 	.content-book-event{
 		position: absolute;
-		//width: 80%;
 		width: 100%;
-		//margin-left: 10%;
 		margin-top: 600px;
 	}
 	/*Boxes and box style protiese for form and text*/
@@ -974,7 +949,6 @@ footer{
 		width: 80%;
 		margin-left: 10%;
 		margin-top: 200px;
-		//background-color: blue;
 	}
 	/*Text color for content p,h1 properties*/
 	.box-book-event h1{
@@ -991,7 +965,6 @@ footer{
 		margin-top: 1050px;
 		width: 80%;
 		margin-left: 10%;
-		//background-color: blue;
 	}
 	.book-event-input-boxes legend{
 		background-color: #696972;
@@ -1086,7 +1059,6 @@ footer{
 	#foot-tour{
 		height: 150px;
 		width: 100%;
-		//position: relative;
 		margin-top: 850px;
 	}
 	#foot-index{
