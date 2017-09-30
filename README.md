@@ -1,6 +1,6 @@
 ![The Monkees](images/readme/bio.jpg?raw=true "The Monkees")
-#The Monkees - Music band
-The Monkees are rock and pop band. The were formed in Los Angeles in 1965.
+# The Monkees 
+- Music band - The Monkees are rock and pop band. The were formed in Los Angeles in 1965.
 
 ## Project source can be download from the following link:
 https://github.com/zainshafiq2017/the_monkees
@@ -42,10 +42,10 @@ The only thing need is the intertnet connection.
 This website is built with Front-end technologies like HTML, CSS and client side scripting such as javascript.
 In addition there is also present [AngularJS](https://angularjs.org/) framework and jquery.
 
-##Limitations
+## Limitations
 This site is compatible in all operative systems and doesn't encounter any problems.
 
-##Pending features
+## Pending features
 - Create a payment buttons for users to accept credit card, debit card and PayPal payments on the website.
 - Create a Database Managemente System for selling items.
 
@@ -61,7 +61,7 @@ This website is for the 1960's rock music band with experience on performing liv
 The main motivation and targets of website are to make contact between fans and the music band, availablity to watch events and
 hear clips, publicise their parties and all events date and to get quotes for hiring band.
 
-##Author
+## Author
 - Zain Shafiq
 
 ## License
