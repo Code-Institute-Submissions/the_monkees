@@ -20,12 +20,15 @@ There are different input web forms in the website. These forms are validated wi
 
 ## Usage
 ### tour.html
+![Tours](images/readme/tour.jpg?raw=true "Tours")
 On this page, users can get more information about "The Monkees" events, tickets and place where the exhibition takes place.
 Each event will show whether the event is free or on payment or is private.
 ### book-event.html
+![Book Events](images/readme/book-event.jpg?raw=true "Book Events")
 For hiring a band the fans have to fill out the form where they can get quote immediately.
 The javascript read all input values of form to give result of quote in the output.
 ### chat-room.html
+![Chat Room](images/readme/chat-room.jpg?raw=true "Chat Room")
 This page is dedicated to anyone who wants to leave any comments on the performance of the band.
 Fans can also give advice to "the Monkees" on where they can still improve.
 ### log-in.html
